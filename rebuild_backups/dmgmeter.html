@@ -99,12 +99,12 @@
         $("#_displayName").html(languagepack.displayName[language_kr]);
 
 //This function draws an individual bar, it checks first to see if a character is you. If not, it draws it with class/job colors.
-        function privbar(bool)
+        function privbar() //formerly privbar(bool)
         {
-            if(bool == 1)
-            {
-                $(".self .bar-back").css("background", "rgb("+$("#cr").val()+","+$("#cg").val()+","+$("#cb").val()+")");
-            }
+//            if(bool == 1)
+//            {
+//                $(".self .bar-back").css("background", "rgb("+$("#cr").val()+","+$("#cg").val()+","+$("#cb").val()+")");
+//            }
             $("#privbar").css("background", "rgb("+$("#cr").val()+","+$("#cg").val()+","+$("#cb").val()+")");
         }
         
