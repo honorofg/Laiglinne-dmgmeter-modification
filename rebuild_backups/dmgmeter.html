@@ -98,7 +98,8 @@
         $("#_displayResize").html(languagepack.displayResize[language_kr]);
         $("#_displayName").html(languagepack.displayName[language_kr]);
 
-//This function draws an individual bar, it checks first to see if a character is you. If not, it draws it with class/job colors.
+//This function pulls the colorsets for the data bars, pulling a different colorset if the char is you
+//I've changed it to skip that step
         function privbar() //formerly privbar(bool)
         {
 //            if(bool == 1)
