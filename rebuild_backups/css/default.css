@@ -497,6 +497,8 @@ background: -webkit-linear-gradient(top,  #4a2829 0%,#4a2829 80%,#000072 80%,#00
 .rank {
     float: left;
     padding-left: 2px;
+/*low-tech fix to not wanting to see rank numbers, likely causes misalignment of job name text*/
+    opacity: 0.0;
 }
 .inactive .bar {
     background-color: #d8dadb;
