@@ -400,11 +400,12 @@ background: -webkit-linear-gradient(top,  #4442a8 0%,#4442a8 80%,#E0A030 80%,#f6
     transition: width .4s ease-in-out;
 }
 /*Sets the pale cyan bar color for the active player. I have left this
-unmodified, but removed the reference to it in the damage meter .html, so it does nothing now*/
-.self .bar-back
+unmodified, but removed the reference to it in the damage meter .html, so it does nothing now
+Update: I disabled this block and now it just displays your class/role colors, which is what I want*/
+/*.self .bar-back
 {
     background-color:rgb(232,255,254);
-}
+}*/
 
 .show-job-colors .격투사 .bar, .show-job-colors .몽크 .bar {
 background: -webkit-linear-gradient(top,  #b38915 0%,#b38915 80%,#720000 80%,#C00000 100%);
