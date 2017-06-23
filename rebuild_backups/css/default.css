@@ -407,7 +407,9 @@ Update: I disabled this block and now it just displays your class/role colors, w
     background-color:rgb(232,255,254);
 }*/
 
-.show-job-colors .격투사 .bar, .show-job-colors .몽크 .bar {
+/*ARR Jobs are below*/
+
+.show-job-colors .격투사 .bar, .show-job-colors .몽크/*MNK*/ .bar {
 background: -webkit-linear-gradient(top,  #b38915 0%,#b38915 80%,#720000 80%,#C00000 100%);
 }
 
@@ -431,7 +433,7 @@ background: -webkit-linear-gradient(top,  #674598 0%,#674598 80%,#720000 80%,#C0
 background: -webkit-linear-gradient(top,  #ee2e48 0%,#ee2e48 80%,#720000 80%,#C00000 100%);
 }
 
-.show-job-colors .학자 .bar {
+.show-job-colors .학자/*SCH*/ .bar {
 background: -webkit-linear-gradient(top,  #4442a8 0%,#4442a8 80%,#007200 80%,#00C000 100%);
 }
 
@@ -457,19 +459,30 @@ background: -webkit-linear-gradient(top,  #a91a16 0%,#a91a16 80%,#000072 80%,#00
 .show-job-colors .에오스 .bar {
     background-color: #998842;
 }
-.show-job-colors .점성술사 .bar {
+
+/*Heavensward Jobs + MCH Turret are these four below*/
+
+.show-job-colors .점성술사/*AST*/ .bar {
 background: -webkit-linear-gradient(top,  #DB8043 0%,#DB8043 80%,#007200 80%,#00C000 100%);
 }
-.show-job-colors .기공사 .bar {
+.show-job-colors .기공사/*MCH*/ .bar {
 background: -webkit-linear-gradient(top,  #6bcec2 0%,#6bcec2 80%,#720000 80%,#C00000 100%);
 }
-.show-job-colors .포탑 .bar {
+.show-job-colors .포탑/*MCH Turret*/ .bar {
 background: -webkit-linear-gradient(top,  #6bcec2 0%,#6bcec2 80%,#E0A030 80%,#f6da6a 100%);
 }
-.show-job-colors .암흑기사 .bar {
+.show-job-colors .암흑기사/*DRK*/ .bar {
 background: -webkit-linear-gradient(top,  #4a2829 0%,#4a2829 80%,#000072 80%,#0000C0 100%);
 }
 
+/*Stormblood Jobs these two below, my own addition*/
+
+.show-job-colors .rdm/*RDM, went with kind of a bright pink, will likely change this*/ .bar {
+background: -webkit-linear-gradient(top,  #f43e90 0%,#f43e90 80%,#720000 80%,#C00000 100%);
+}
+.show-job-colors .sam/*SAM, went with a greyed yellowish green, will likely also change*/ .bar {
+background: -webkit-linear-gradient(top,  #8a9c27 0%,#8a9c27 80%,#720000 80%,#C00000 100%);
+}
 
 .job-icon {
     top: 0;
